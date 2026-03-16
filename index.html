@@ -447,7 +447,7 @@
           <input
             class="footer-input"
             type="email"
-            name="email"
+            name="user-email"
             placeholder="E-mail"
           />
         </label>
@@ -461,7 +461,7 @@
     </div>
     </div>
   </footer>
-<div class="backdrop">
+<div class="backdrop is-open">
   <div class="modal">
     <button type="button" class="modal-close-btn" aria-label="Close modal">
                 <svg class="modal-close-icon" width="8" height="8" >
@@ -513,12 +513,23 @@
       </div>
 
       <div class="modal-check">
-        <label class="modal-check-label">
-          <input type="checkbox" />
-          I accept the terms and conditions of the
-          <a href="">Privacy Policy</a>
-        </label>
-      </div>
+  <input
+    class="modal-check-input visually-hidden"
+    type="checkbox"
+    id="user-privacy"
+    name="user-privacy"
+    value="true"
+  />
+  <label class="modal-check-label" for="user-privacy">
+    <span class="modal-check-span">
+      <svg class="modal-check-icon" width="10" height="8">
+        <use href="./images/icons.svg#icon-check"></use>
+      </svg>
+    </span>
+    I accept the terms and conditions of the
+    <a href="" class="modal-check-link">Privacy Policy</a>
+  </label>
+</div>
 
       <button type="submit" class="modal-submit-btn">Send</button>
     </form>
