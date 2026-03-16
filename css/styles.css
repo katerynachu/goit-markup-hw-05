@@ -659,15 +659,16 @@ body {
   align-items: center;
   gap: 8px;
 }
-
 .modal-check-span {
   display: inline-flex;
+}
+.modal-check-span {
   width: 16px;
   height: 16px;
 
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
-
+  display: inline-flex;
   align-items: center;
   justify-content: center;
 
