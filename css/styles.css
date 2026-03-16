@@ -70,7 +70,7 @@ body {
 }
 .header {
   border-bottom: 1px solid var(--border);
-    box-shadow:
+  box-shadow:
     0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16),
     0px 1px 6px rgba(46, 47, 66, 0.08);
@@ -160,7 +160,7 @@ body {
   color: var(--hover);
 }
 .hero {
-   max-width: 1440px;
+  max-width: 1440px;
   margin: 0 auto;
 
   background-image:
@@ -242,8 +242,7 @@ body {
   background-color: var(--bg-grey);
   border-radius: 4px;
   margin-bottom: 8px;
-    border: 1px solid #8e8f99;
-
+  border: 1px solid #8e8f99;
 }
 .advantages-h3 {
   color: var(--dark-grey);
@@ -335,9 +334,10 @@ body {
 
 .portfolio-item:hover,
 .portfolio-item:focus-within {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-              0px 1px 1px rgba(46, 47, 66, 0.16),
-              0px 2px 1px rgba(46, 47, 66, 0.08);
+  box-shadow:
+    0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-thumb {
@@ -389,7 +389,7 @@ body {
   align-items: baseline;
 }
 .footer-social {
- margin-right: 80px;
+  margin-right: 80px;
 }
 .footer-social .social-list {
   gap: 16px;
@@ -430,8 +430,7 @@ body {
 
   padding-left: 16px;
   outline: transparent;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .footer-input::placeholder {
@@ -486,7 +485,8 @@ body {
   visibility: hidden;
   pointer-events: none;
 
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  transition:
+    opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -515,7 +515,6 @@ body {
   padding: 72px 24px 24px 24px;
 
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
 }
 .modal-close-btn {
   position: absolute;
@@ -535,7 +534,8 @@ body {
   background-color: #e7e9fc;
   cursor: pointer;
 
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  transition:
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -600,7 +600,6 @@ body {
   border-color: #4d5ae5;
 }
 
-
 .modal-icon {
   position: absolute;
   left: 16px;
@@ -662,13 +661,13 @@ body {
 }
 
 .modal-check-span {
+  display: inline-flex;
   width: 16px;
   height: 16px;
 
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
 
-  display: inline-flex;
   align-items: center;
   justify-content: center;
 
@@ -709,8 +708,7 @@ body {
 
   cursor: pointer;
 
-  box-shadow:
-    0px 4px 4px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
